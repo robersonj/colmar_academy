@@ -46,3 +46,42 @@ nav a {
 nav a:last-child {
     margin-right: 0;
 }
+
+/* ===BANNER STYLES=== */
+
+.banner {
+    display: flex;
+    align-items: center;
+    background-color: #D8D8D8;
+}
+
+.banner img {
+    width: 60%;
+    height: auto;
+    padding: 32px 40px 32px 24px
+}
+
+.banner figure {
+    margin: 32px -200px 32px 24px;
+    padding-right: 0;
+}
+
+.button {
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: #4A4A4A;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.learn {
+    font-family: 'Open Sans', sans-serif;
+    color: #4A4A4A;
+    margin-right: 135px;
+}
+
+.learn h2 {
+    font-size: 35px;
+    font-weight: 800;
+}
