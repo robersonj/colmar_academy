@@ -1,7 +1,16 @@
+/* ===UNIVERSAL STYLES=== */
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
 /* ===HEADER SECTION STYLES=== */
 
 header {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     height: 64px;
@@ -21,7 +30,6 @@ header {
 }
 
 .logo {
-    display: flex;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif; /*TODO find better matching font */
     font-size: 20px;
@@ -50,7 +58,6 @@ nav a:last-child {
 /* ===BANNER STYLES=== */
 
 .banner {
-    display: flex;
     align-items: center;
     background-color: #D8D8D8;
 }
@@ -89,7 +96,6 @@ nav a:last-child {
 /* ===INFORMATION SECTION STYLES=== */
 
 .grid {
-    display: flex;
     flex-direction: column;
     width: 423px;
     flex: 1;
@@ -108,14 +114,9 @@ nav a:last-child {
     background-color: #D8D8D8;
 }
 
-.information {
-    display: flex;
-}
 
 .info-container {
-    display: flex;
     border-bottom: 1px solid #D8D8D8;
-    
 }
 
 .information-main {
@@ -130,6 +131,5 @@ nav a:last-child {
 }
 
 .text-container {
-    display: flex;
     flex-direction: column;
 }
