@@ -235,6 +235,13 @@ nav a:last-child {
     margin-top: 0;
 }
 
+/* ===THESIS SECTION STYLES === */
+
+video {
+    margin: 0 16px 24px 24px;
+    width: 90%;
+}
+
 /* === FOOTER STYLES === */
 
 footer {
