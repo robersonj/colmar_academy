@@ -2,6 +2,11 @@
 
 * {
     font-family: 'Open Sans', sans-serif;
+    color: #4A4A4A;
+}
+
+html {
+    font-size: 16px;
 }
 
 .flex {
@@ -44,7 +49,7 @@ header {
 
 nav a {
     font-family: 'Open Sans', sans-serif; /*TODO find better matching font */
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
     color: black;
     text-decoration: none;
@@ -58,19 +63,16 @@ nav a:last-child {
 /* ===BANNER STYLES=== */
 
 .banner {
+    width: 100%;
     align-items: center;
     background-color: #D8D8D8;
 }
 
 .banner img { /*FIXME not proper width/height */
-    width: 60%;
+    display: block;
+    width: 58.5%;
     height: auto;
     padding: 32px 40px 32px 24px
-}
-
-.banner figure {
-    margin: 32px -200px 32px 24px;
-    padding-right: 0;
 }
 
 .button {
@@ -83,6 +85,8 @@ nav a:last-child {
 }
 
 .learn {
+    width: 100%;
+    flex: 1;
     font-family: 'Open Sans', sans-serif;
     color: #4A4A4A;
     margin-right: 135px;
@@ -97,17 +101,34 @@ nav a:last-child {
 
 .grid {
     flex-direction: column;
-    width: 423px;
-    flex: 1;
+    width: 473px;
     border-left: 1px solid #D8D8D8;
     padding-top: 16px;
+    margin-bottom: 0;
 }
 
+.grid a {
+    font-size: 0.9rem;
+    color: blue; 
+    text-decoration: none;
+}
 .grid img {
     height: auto;
     width: 35%;
     height: 35%;
     padding: 16px;
+}
+
+.grid p {
+    font-size: .95rem;
+    padding: 8px 15px 8px 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.grid h3 {
+    font-size: 1.3rem;
+    margin-top: 0;
 }
 
 .grid .info-container:last-child {
@@ -120,9 +141,14 @@ nav a:last-child {
 }
 
 .information-main {
-    width: 100%;
-    flex: 1.5;
+    width: auto;
+    flex: 1;
     padding: 32px 24px;
+}
+
+.information-main h2 {
+    font-size: 2.2rem;
+    margin-bottom: 24px;
 }
 
 .information-main img {
@@ -130,6 +156,26 @@ nav a:last-child {
     height: auto;
 }
 
+.information-main p {
+    font-size: 0.95rem;
+}
+
+.information-main p:last-child {
+    margin-top: 35px;
+    margin-bottom: 0;
+    font-weight: bold;
+    
+}
+
 .text-container {
     flex-direction: column;
+    justify-content: center;
+}
+
+.text-container p {
+    margin-bottom: 10px;
+}
+
+.text-container h3 {
+    margin-bottom: 0;
 }
