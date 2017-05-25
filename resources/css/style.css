@@ -13,6 +13,10 @@ html {
     display: flex;
 }
 
+main {
+    margin-bottom: 0px;
+}
+
 /* ===HEADER SECTION STYLES=== */
 
 header {
@@ -101,7 +105,7 @@ nav a:last-child {
 
 .grid {
     flex-direction: column;
-    width: 473px;
+    flex-basis: 473px;
     border-left: 1px solid #D8D8D8;
     padding-top: 16px;
     margin-bottom: 0;
@@ -229,4 +233,21 @@ nav a:last-child {
 
 .txt-container h3 {
     margin-top: 0;
+}
+
+/* === FOOTER STYLES === */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: -15px;
+    padding-left: 24px;
+    padding-right: 24px;
+    height: 90px;
+    font-size: 0.80rem;
+}
+
+footer span {
+    margin-left: 10px;
 }
